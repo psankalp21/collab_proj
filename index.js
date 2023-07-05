@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require('express');
 require('dotenv').config();
 
 const bodyParser = require('body-parser');
@@ -21,4 +21,3 @@ app.use(sankalpRoute);
 app.listen(port,() =>{
     console.log("running")
 })
-
